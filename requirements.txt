@@ -6,3 +6,6 @@ langchain-community
 faiss-cpu
 google-generativeai
 serpapi
+google-search-results
+
+
