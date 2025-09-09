@@ -2,7 +2,9 @@ import os
 import pdfplumber
 from typing import List, Dict, Any, Optional
 # from serpapi import GoogleSearch
-from serpapi import GoogleSearch
+# from serpapi import GoogleSearch
+from serpapi.google_search import GoogleSearch
+
 from langchain.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 
@@ -158,4 +160,5 @@ def generate_cover_letter(resume_text: str, job: dict) -> str:
     # llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
     response = llm.invoke(final_prompt)
     return response.content
+
 
