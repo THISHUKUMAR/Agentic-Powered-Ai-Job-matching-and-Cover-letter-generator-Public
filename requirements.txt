@@ -1,0 +1,8 @@
+streamlit
+pdfplumber
+langchain
+langchain-google-genai
+langchain-community
+PyPDF2
+pdfminer.six
+requests
